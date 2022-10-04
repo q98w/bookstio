@@ -89,4 +89,3 @@ docker build -t reviews-v3 \
 
 2. After fork project, find secrets under GitHub settings and create new repository secrets named **DOCKER_ HUB_ NAME** and **DOCKER_ HUB_ PASS** fills with the user name and token of dockerhub respectively.
 3. After pushing the project, the Git Action will run automatically. After running, the created image can  seen in the dockerhub.
-
